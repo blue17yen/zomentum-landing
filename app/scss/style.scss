@@ -110,9 +110,12 @@ img {
     gap: 220px;
 
     position: relative;
-    &__image-partner-left {
+
+    &__images_absolute {
         z-index: 2;
         position: absolute;
+    }
+    &__image-partner-left {
         width: 390px;
         height: 255px;
 
@@ -121,8 +124,6 @@ img {
         left: 7%;
     }
     &__image-partner-right {
-        z-index: 2;
-        position: absolute;
         width: 340px;
         height: 261px;
 
@@ -131,6 +132,19 @@ img {
         top: 21%;
         right: 9%;
     }
+    &__image-triangles-left {
+        width: 107px;
+        height: 87px;
+        bottom: 8%;
+        left: 8%;
+    }
+    &__image-triangles-right {
+        width: 120px;
+        height: 98px;
+        bottom: 37%;
+        right: 4%;
+    }
+
 }
 
 
@@ -195,6 +209,7 @@ img {
         margin-bottom: 24px;
     }
     &__text {
+        max-width: 254px;
         color: $dark-navy;
         font-weight: 400;
     }
@@ -278,7 +293,6 @@ img {
         display: flex;
         flex-direction: row;
         justify-content: space-around;
-        // padding-right: (416px - 220px);
     }
     &__copyright, &__follow-social {
         color: $white;

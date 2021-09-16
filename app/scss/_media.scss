@@ -1,9 +1,9 @@
-@media (max-width: 1439px) {
+@media (max-width: 1440px) {
     .header {
         padding: 0 65px 0 35px;
     }
     .business {
-        &__image-partner-left, &__image-partner-right {
+        &__images_absolute {
             display: none;
         }
     }
@@ -11,7 +11,7 @@
 
 @media (width: 1024px) {
     .business {
-        &__image-partner-left, &__image-partner-right {
+        &__images_absolute {
             display: block;
         }
         &__image-partner-left {
@@ -25,6 +25,18 @@
             height: 224px;
             top: 25%;
             right: 1%;
+        }
+        &__image-triangles-left {
+            width: 90px;
+            height: 76px;
+            bottom: 3%;
+            left: 4%;
+        }
+        &__image-triangles-right {
+            width: 105px;
+            height: 90px;
+            bottom: 38%;
+            right: 2%;
         }
     }
 }
@@ -47,7 +59,7 @@
 
 @media (width: 992px) {
     .business {
-        &__image-partner-left, &__image-partner-right {
+        &__images_absolute {
             display: block;
         }
         &__image-partner-left {
@@ -61,6 +73,18 @@
             height: 224px;
             top: 25%;
             right: 1%;
+        }
+        &__image-triangles-left {
+            width: 90px;
+            height: 76px;
+            bottom: 3%;
+            left: 4%;
+        }
+        &__image-triangles-right {
+            width: 105px;
+            height: 90px;
+            bottom: 38%;
+            right: 2%;
         }
     }
 }
@@ -147,7 +171,7 @@
 
 @media (width: 768px) {
     .business {
-        &__image-partner-left, &__image-partner-right {
+        &__images_absolute {
             display: block;
         }
         &__image-partner-left {
@@ -161,6 +185,18 @@
             height: 160px;
             top: 22%;
             right: 1%;
+        }
+        &__image-triangles-left {
+            width: 80px;
+            height: 68px;
+            bottom: 4%;
+            left: 8%;
+        }
+        &__image-triangles-right {
+            width: 95px;
+            height: 80px;
+            bottom: 50%;
+            right: 2%;
         }
     }
 }

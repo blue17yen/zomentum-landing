@@ -42,6 +42,8 @@ gulp build
 ```
 **но сначала вам нужно инициализировать приложение*
 
+## Demo
+https://blue17yen.github.io/zomentum-landing/build/index.html
 
 ## Maket 
 https://www.figma.com/file/JIpcmhUuVXFCzqZFiBCDR9/Landing-Page-for-Zomentum-Community
